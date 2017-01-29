@@ -1,0 +1,64 @@
+body {
+	font-family: Raleway;
+	background: #f74;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	border-radius: 5px;
+	padding: 40px 50px;
+	background: #fff;
+	width: 400px;
+}
+
+.quote-box {
+	text-align: center;
+	font-weight: 500;
+	font-size: 24px;
+	color: #f74;
+}
+
+.author {
+	text-align: right;
+	color: #f74;
+}
+
+.button {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	background: #f74;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.btn-tweet {
+	float: left;
+}
+
+.btn-roll {
+	float: right;
+}
+
+body,
+.button {
+	-webkit-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+}
+
+.quote-box,
+.author {
+	-webkit-transition: color 1s ease;
+	transition: color 1s ease;
+}
